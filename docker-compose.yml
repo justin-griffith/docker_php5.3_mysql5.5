@@ -8,8 +8,6 @@ services:
     build: 
       context: .
       dockerfile: dockerfiles/mysql/Dockerfile_mysql5.5
-      #dockerfile: dockerfiles/mysql/Dockerfile_mysql8
-    #command: mysqld --default-authentication-plugin=mysql_native_password # Uncomment this for mysql8
     environment:
       MYSQL_ROOT_PASSWORD: dbpass  # This is used by phpmyadmin, if changed must update the PMA_PASSWORD below to match
       MYSQL_DATABASE: dbname
