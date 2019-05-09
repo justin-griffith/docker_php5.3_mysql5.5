@@ -22,8 +22,7 @@ services:
     container_name: web
     build: 
       context: .
-      dockerfile: dockerfiles/webserver/Dockerfile_centos7_php53
-      #dockerfile: dockerfiles/webserver/Dockerfile_centos7_php72
+      dockerfile: dockerfiles/webserver/Dockerfile_centos6_php53
     depends_on:
       - db
     volumes:
