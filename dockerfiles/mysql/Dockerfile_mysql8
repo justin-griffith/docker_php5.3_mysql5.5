@@ -1,0 +1,5 @@
+FROM mysql:8
+MAINTAINER griffithmail@gmail.com
+
+
+
